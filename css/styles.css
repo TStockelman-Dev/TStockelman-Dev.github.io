@@ -10,18 +10,19 @@ header {
     top: 0;
     background-color: rgba(15, 23, 42, 0.85);
     backdrop-filter: blur(10px);
-    z-index: 999;
+    z-index: 1000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     display: flex;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
     width: 100vw;
+    flex-wrap: wrap;
 }
 
 .logo {
     display: flex;
-    align-content: flex-start;
-    justify-items: flex-start;
+    align-content: center;
+    justify-items: center;
     flex: 0 0 12%;
     height: 80%;
     margin: 10px;
@@ -36,6 +37,7 @@ header {
 
 .navbar ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 20px;
 }
