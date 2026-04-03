@@ -1,0 +1,67 @@
+# =========================
+# OS-generated files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Dependency directories
+# =========================
+node_modules/
+
+# =========================
+# Build / output folders
+# =========================
+dist/
+build/
+out/
+.cache/
+.tmp/
+
+# =========================
+# Package manager files (optional)
+# =========================
+# Keep package.json, but ignore lockfiles ONLY if you choose:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =========================
+# Coverage / testing
+# =========================
+coverage/
+
+# =========================
+# Misc
+# =========================
+*.tgz
+*.zip
+*.tar.gz
