@@ -12,5 +12,41 @@ header {
     backdrop-filter: blur(10px);
     z-index: 999;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
 }
 
+.logo {
+    display: flex;
+    align-content: flex-start;
+    justify-items: flex-start;
+    flex: 0 0 12%;
+    height: 80%;
+    margin: 10px;
+    border: 1px solid white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+nav a {
+    padding: 8px 12px;
+    background: transparent;
+    transition:  0.3s ease
+}
