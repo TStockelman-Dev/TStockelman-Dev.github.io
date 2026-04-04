@@ -65,6 +65,8 @@ main {
     background-color: #0f172a;
     color: #e5e7eb;
     line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h1 {
@@ -77,4 +79,10 @@ h1 {
     padding-top: 12px;
     text-align: center;
     font-size: 1.2em;
+}
+
+.welcome {
+    padding-top: 48px;
+    font-size: 1.25em;
+    text-align: left;
 }
