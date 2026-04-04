@@ -24,7 +24,7 @@ header {
     align-content: center;
     justify-items: center;
     flex: 0 0 10%;
-    height: 80%;
+    max-height: 80%;
     margin: 10px;
     border: 1px solid white;
     border-radius: 8px;
@@ -46,6 +46,7 @@ header {
 .nav-link {
     color: #e5e7eb;
     text-decoration: none;
+    font-size: 1.25em;
 }
 
 nav a {
@@ -70,4 +71,10 @@ h1 {
     text-align: center;
     padding-top: 24px;
     background-color: #0f172a;
+}
+
+.tech-stack {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 1.2em;
 }
