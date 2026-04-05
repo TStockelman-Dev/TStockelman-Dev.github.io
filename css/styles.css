@@ -61,6 +61,47 @@ nav a:hover {
     font-size: 115%;
 }
 
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        min-height: unset;
+        padding: 12px 16px;
+    }
+
+    .logo {
+        display: block;
+        max-width: 140px;
+        height: auto;
+        margin: 0 auto 8px auto;
+        flex: none;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        align-items: center;
+        gap: 10px 14px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 6px 10px;
+        align-items: center;
+    }
+}
+
+
 main {
     background-color: #0f172a;
     color: #e5e7eb;
@@ -83,6 +124,6 @@ h1 {
 
 .welcome {
     padding-top: 48px;
-    font-size: 1.25em;
+    font-size: 1.1em;
     text-align: left;
 }
