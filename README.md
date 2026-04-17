@@ -1,2 +1,2 @@
 # TStockelman-Dev.github.io
-An introduction to who I am, what I do, and how I got here.
+This is my personal portfolio site, which is currently still under construction. Upon the completion of this site, you can learn more about my esperience, projects, and the ways in which I can help you.
