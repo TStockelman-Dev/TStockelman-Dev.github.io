@@ -146,7 +146,14 @@ h1 {
     justify-items: center;
     padding-top: 48px;
     width: auto;
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
     max-height: 80%;
+    padding-left: 20px;
+    padding-right: 48px;
+}
+
+.welcome a {
+    display: flex;
+    flex: wrap;
 }
