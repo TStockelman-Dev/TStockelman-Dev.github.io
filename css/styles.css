@@ -117,13 +117,36 @@ h1 {
 }
 
 .tech-stack {
+    display: block;
     padding-top: 12px;
     text-align: center;
     font-size: 1.2em;
+    padding-bottom: 24px;
 }
 
 .welcome {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 48px;
     font-size: 1.1em;
     text-align: left;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profile-photo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
+    padding-top: 48px;
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    max-height: 80%;
 }
