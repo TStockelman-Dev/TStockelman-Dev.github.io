@@ -27,7 +27,7 @@ header {
     max-height: 80%;
     margin: 10px;
     border: 1px solid white;
-    border-radius: 25%;
+    border-radius: 50%;
 }
 .navbar{
     display: flex;
