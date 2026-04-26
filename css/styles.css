@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     height: 20vh;
-    width: 100vw;
+    width: 99vw;
     flex-wrap: wrap;
 }
 
