@@ -62,46 +62,6 @@ nav a:hover {
 }
 
 
-@media screen and (max-width: 800px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        min-height: unset;
-        padding: 12px 16px;
-    }
-
-    .logo {
-        display: block;
-        max-width: 140px;
-        height: auto;
-        margin: 0 auto 8px auto;
-        flex: none;
-    }
-
-    .navbar {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex: none;
-    }
-
-    .navbar ul {
-        justify-content: center;
-        align-items: center;
-        gap: 10px 14px;
-    }
-
-    .nav-link {
-        font-size: 1rem;
-        padding: 6px 10px;
-        align-items: center;
-    }
-}
-
-
 main {
     background-color: #0f172a;
     color: #e5e7eb;
@@ -191,4 +151,79 @@ h1 {
 .social-buttons img:hover {
     transform: scale(0.85);
     transition: 0.3s ease;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        min-height: unset;
+        padding: 12px 16px;
+    }
+
+    .logo {
+        display: block;
+        max-width: 140px;
+        height: auto;
+        margin: 0 auto 8px auto;
+        flex: none;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        align-items: center;
+        gap: 10px 14px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 6px 10px;
+        align-items: center;
+    }
+
+    #introduction {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .profile-photo {
+        display: block;
+        width: 100%;
+        max-width: 260px;
+        min-width: auto;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .portfolio-intro {
+        width: 100%;
+        align-items: center;
+        font-size: 0.75 em;
+    }
+
+    .social-buttons {
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .social-buttons img {
+        max-width: 90px;
+        margin: 0;
+        padding-top: 20px;
+    }
 }
