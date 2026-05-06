@@ -163,34 +163,22 @@ h1 {
     padding-top: 72px;
 }
 
-.real-tools-header {
-    font-size: 3.5em;
-    text-align: center;
-    padding-top: 36px;
-    border-bottom: 1px solid white;
-}
-
-.real-people-header, .real-impact-header {
-    font-size: 3.5em;
-    text-align: center;
-    padding-top: 24px;
-    border-bottom: 1px solid white;
-}
-
 .real-tools-paragraph{
     font-size: 1.5em;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 12px;
+    padding-bottom: 24px;
 }
 
 .real-people-paragraph, .real-impact-paragraph {
     font-size: 1.5em;
     text-align: center;
     padding-top: 12px;
+    padding-bottom: 24px;
 }
 
 .stand-out-text {
-    font-size: 2.25em;
+    font-size: 3em;
     padding-right: 20px;
 }
 
@@ -266,5 +254,17 @@ h1 {
         max-width: 90px;
         margin: 0;
         padding-top: 20px;
+    }
+
+    .real-impact-paragraph, .real-people-paragraph, .real-tools-paragraph {
+        font-size: 1.25em;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .stand-out-text {
+        display: block;
+        font-size: 3em;
+        padding-right: 10px;
     }
 }
