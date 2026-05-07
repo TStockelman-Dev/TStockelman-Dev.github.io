@@ -163,6 +163,15 @@ h1 {
     padding-top: 72px;
 }
 
+.impact-title {
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    width: 100%;
+    border-bottom: 2px solid #4b5563;
+}
+
 .real-tools-paragraph{
     font-size: 1.5em;
     text-align: center;
