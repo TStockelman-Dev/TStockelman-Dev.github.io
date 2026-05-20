@@ -303,6 +303,8 @@ h1 {
     padding: 24px;
     background: rgba(15, 23, 42, 0.93);
     color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
