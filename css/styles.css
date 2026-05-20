@@ -328,6 +328,19 @@ h1 {
     text-align: center;
 }
 
+.more-projects {
+    display: block;
+    text-align: center;
+    font-size: 1.25em;
+    padding-top: 24px;
+}
+
+.more-projects img{
+    max-width: 125px;
+    height: auto;
+    padding-left: 8px;
+}
+
 @media screen and (max-width: 800px) {
     header {
         flex-direction: column;
