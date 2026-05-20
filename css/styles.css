@@ -270,23 +270,52 @@ h1 {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 24px;
 }
 
 .project {
+    position: relative;
     border: 5px solid #4b5563;
-    padding: 16px;
+    overflow: hidden;
+    aspect-ratio: 4 / 5;
+    min-height: 280px;
 }
 
 .project-title {
     font-size: 1.5em;
     margin-bottom: 8px;
     text-align: center;
-    background-color:#0f172a
+    background-color: #0f172a;
 }
 
+.project-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.project-text {
+    display: none;
+    position: absolute;
+    inset: 0;
+    padding: 24px;
+    background: rgba(15, 23, 42, 0.93);
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.project:hover .project-image {
+    display: none;
+}
+
+.project:hover .project-text {
+    display: flex;
+}
 
 @media screen and (max-width: 800px) {
     header {
