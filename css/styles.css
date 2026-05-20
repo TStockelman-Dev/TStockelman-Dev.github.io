@@ -441,4 +441,13 @@ h1 {
         width: 99vw;
         height: auto;
     }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project {
+        aspect-ratio: auto;
+        min-height: 360px;
+    }
 }
