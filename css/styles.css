@@ -426,7 +426,7 @@ h1 {
 .form-right {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 20px;
 }
 
 .form-group {
@@ -475,6 +475,8 @@ h1 {
     cursor: pointer;
     accent-color: #3b82f6;
 }
+
+
 
 @media screen and (max-width: 800px) {
     header {
