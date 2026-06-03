@@ -110,28 +110,54 @@
                     <form class="contact-form" action="https://formspree.io/f/mvznpykv" method="POST">
                         <fieldset class="contact-fieldset">
                         <legend class="contact-form-legend"><strong>Contact</strong></legend>
-                            <div class="form-group">
-                                <label id="name" for="name">Name:</label>
-                                <input type="text" id="name" name="name" required>
-                                <label id="email" for="email">Email:</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                        <label id="requested-services" for="requested-services">How can I help you?</label>
-                            <div class="checkbox-group">
-                            <label for="web-development">Software and Web Development</label>
-                                <input type="checkbox" id="web-development" name="requested-services" value="Web Development">
-                            <label for="data-analysis">Data Analysis</label>
-                                <input type="checkbox" id="data-analysis" name="requested-services" value="Data Analysis">
-                            <label for="consulting">Consulting and Mentorship</label>
-                                <input type="checkbox" id="consulting" name="requested-services" value="Consulting and Mentorship">
-                            <label for="QA services or Code Review">QA Services or Code Review</label>
-                                <input type="checkbox" id="QA services or Code Review" name="requested-services" value="QA Services or Code Review">
-                            <label for="project-support">Project Support and Collaboration</label>
-                                <input type="checkbox" id="project-support" name="requested-services" value="Project Support and Collaboration">
-                            <label for="data annotation and AI Services">Data Annotation and AI Services</label>
-                                <input type="checkbox" id="data annotation and AI Services" name="requested-services" value="Data Annotation and AI Services">
-                            <label for="other">Other (please specify):</label>
-                                <input type="text" id="other" name="requested-services" value="Other">
+                            <div class="form-columns">
+                                <div class="form-left">
+                                    <div class="form-group">
+                                        <label id="name" for="name">Name:</label>
+                                        <input type="text" id="name" name="name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label id="email" for="email">Email:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label id="company" for="company">Company/Organization:</label>
+                                        <input type="text" id="company" name="company">
+                                    </div>
+                                </div>
+                                <div class="form-right">
+                                    <label id="requested-services" for="requested-services">How can I help you?</label>
+                                    <div class="checkbox-group">
+                                        <label for="web-development">
+                                            <input type="checkbox" id="web-development" name="requested-services" value="Web Development">
+                                            Software and Web Development
+                                        </label>
+                                        <label for="data-analysis">
+                                            <input type="checkbox" id="data-analysis" name="requested-services" value="Data Analysis">
+                                            Data Analysis
+                                        </label>
+                                        <label for="consulting">
+                                            <input type="checkbox" id="consulting" name="requested-services" value="Consulting and Mentorship">
+                                            Consulting and Mentorship
+                                        </label>
+                                        <label for="QA services or Code Review">
+                                            <input type="checkbox" id="QA services or Code Review" name="requested-services" value="QA Services or Code Review">
+                                            QA Services or Code Review
+                                        </label>
+                                        <label for="project-support">
+                                            <input type="checkbox" id="project-support" name="requested-services" value="Project Support and Collaboration">
+                                            Project Support and Collaboration
+                                        </label>
+                                        <label for="data annotation and AI Services">
+                                            <input type="checkbox" id="data annotation and AI Services" name="requested-services" value="Data Annotation and AI Services">
+                                            Data Annotation and AI Services
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="other">Other (please specify):</label>
+                                        <input type="text" id="other" name="requested-services" value="Other">
+                                    </div>
+                                </div>
                             </div>
                             <label for="additional-information">Additional Information:</label>
                                 <textarea id="additional-information" name="additional-information" rows="4"></textarea>
