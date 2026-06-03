@@ -476,6 +476,32 @@ h1 {
     accent-color: #3b82f6;
 }
 
+.submit-button {
+    align-self: center;
+    margin-top: 16px;
+    padding: 14px 48px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.submit-button:hover {
+    background-color: #2563eb;
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
+    transform: translateY(-2px);
+}
+
+.submit-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
 
 
 @media screen and (max-width: 800px) {
@@ -595,5 +621,11 @@ h1 {
 
     .checkbox-group {
         grid-template-columns: 1fr;
+    }
+
+    .submit-button {
+        width: 90%;
+        padding: 12px 24px;
+        font-size: 1em;
     }
 }
