@@ -373,6 +373,12 @@ h1 {
     transition: 0.3s ease;
 }
 
+.project-description {
+    font-size: 1.35em;
+    text-align: center;
+    padding-top: 12px;
+}
+
 .contact-header {
     font-size: 3.5em;
     text-align: center;
@@ -502,7 +508,12 @@ h1 {
     box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 }
 
-
+#footer {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    text-align: center;
+    padding-top: 36px;
+}
 
 @media screen and (max-width: 800px) {
     header {
@@ -612,6 +623,10 @@ h1 {
     .project {
         aspect-ratio: 9 / 16;
         min-height: 360px;
+    }
+
+    .desktop-only {
+        display: none;
     }
 
     .form-columns {
