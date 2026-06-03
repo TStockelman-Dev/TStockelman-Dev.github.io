@@ -625,9 +625,11 @@ h1 {
         min-height: 360px;
     }
 
-    .desktop-only {
-        display: none;
-    }
+    .project-description {
+    font-size: 1.35em;
+    text-align: center;
+    padding-top: 12px;
+}
 
     .form-columns {
         grid-template-columns: 1fr;
