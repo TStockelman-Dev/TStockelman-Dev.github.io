@@ -334,9 +334,6 @@ h1 {
     opacity: 1;
 }
 
-/* Make the anchor wrap the visible area so taps/clicks navigate reliably.
-   Anchor is positioned absolute and sits underneath the text overlay; the
-   overlay remains non-interactive so clicks pass through to the link. */
 .project > a {
     position: absolute;
     inset: 0;
@@ -344,7 +341,6 @@ h1 {
     z-index: 1;
 }
 
-/* Ensure the image fills the anchor */
 .project > a .project-image {
     position: absolute;
     inset: 0;
@@ -370,6 +366,48 @@ h1 {
     max-width: 125px;
     height: auto;
     padding-left: 8px;
+}
+
+.more-projects img:hover {
+    transform: scale(0.85);
+    transition: 0.3s ease;
+}
+
+.contact-header {
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 48px;
+    width: 100%;
+}
+
+.contact-paragraph {
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.contact-form-legend {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.contact-fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 @media screen and (max-width: 800px) {
