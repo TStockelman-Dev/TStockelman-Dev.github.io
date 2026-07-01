@@ -515,6 +515,19 @@ h1 {
     padding-top: 36px;
 }
 
+section {
+  opacity: 0;
+  transform: translateY(30px);
+  visibility: hidden;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
 @media screen and (max-width: 800px) {
     header {
         flex-direction: column;
